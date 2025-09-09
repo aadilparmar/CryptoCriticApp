@@ -40,6 +40,11 @@ android {
 }
 
 dependencies {
+    implementation("com.squareup.retrofit2:converter-gson:2.9.0")
+    implementation("com.github.bumptech.glide:glide:5.0.4")
+    implementation ("androidx.lifecycle:lifecycle-runtime-ktx:2.7.0")
+    implementation("com.google.code.gson:gson:2.10.1")
+    implementation("com.squareup.retrofit2:retrofit:2.9.0")
     implementation("com.github.ybq:Android-SpinKit:1.4.0")
     implementation("com.github.ibrahimsn98:SmoothBottomBar:1.7.9")
     implementation(libs.androidx.core.ktx)

@@ -7,17 +7,17 @@
 
     <fragment
         android:id="@+id/homeFragment"
-        android:name="fragment.HomeFragment"
+        android:name="com.example.cryptocritic.fragment.HomeFragment"
         android:label="fragment_home"
         tools:layout="@layout/fragment_home" />
     <fragment
         android:id="@+id/watchlistFragment"
-        android:name="fragment.WatchlistFragment"
+        android:name="com.example.cryptocritic.fragment.WatchlistFragment"
         android:label="fragment_watchlist"
         tools:layout="@layout/fragment_watchlist" />
     <fragment
         android:id="@+id/marketFragment"
-        android:name="fragment.MarketFragment"
+        android:name="com.example.cryptocritic.fragment.MarketFragment"
         android:label="fragment_market"
         tools:layout="@layout/fragment_market" />
 </navigation>

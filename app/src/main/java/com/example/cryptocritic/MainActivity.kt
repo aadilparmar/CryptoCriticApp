@@ -20,7 +20,7 @@ class MainActivity : AppCompatActivity() {
 
         val navHostFragment = supportFragmentManager.findFragmentById(R.id.fragmentContainerView)
         val navController = navHostFragment!!.findNavController()
-        val popupMenu = PopupMenu(this,binding.bottomBar)
+        val popupMenu = PopupMenu(this, binding.bottomBar)
         popupMenu.inflate(R.menu.bottom_nav_menu)
         binding.bottomBar.setupWithNavController(popupMenu.menu,navController)
 
