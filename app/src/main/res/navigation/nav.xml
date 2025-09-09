@@ -16,7 +16,7 @@
         android:label="fragment_watchlist"
         tools:layout="@layout/fragment_watchlist" />
     <fragment
-        android:id="@+id/marketFragment2"
+        android:id="@+id/marketFragment"
         android:name="fragment.MarketFragment"
         android:label="fragment_market"
         tools:layout="@layout/fragment_market" />
